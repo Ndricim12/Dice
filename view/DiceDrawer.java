@@ -84,6 +84,13 @@ public class DiceDrawer extends JPanel {
 
 
  }
+      public void drawDice() {
+         Dice dice=new Dice();
+         number=dice.throwDice();
+         this.repaint();
+
+
+      }
  
  }
 
